@@ -165,15 +165,15 @@ li >    input[type="text"] {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+li input[type=text] {
     display: none;
 }
 
-ul li.editMode input[type=text] {
+.incomplete-card__edit-mode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+.incomplete-card__edit-mode label {
     display: none;
 }
